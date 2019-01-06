@@ -1,0 +1,134 @@
+
+/* Extra small devices (phones, 600px and down)                               */
+@media only screen and (max-width: 600px) {
+    
+.header     {  }
+.nav        {  }
+.about      {  }
+.cv         {  }
+.footer     {  }
+
+.grid-container {
+  grid-template-areas:
+      'hd'    
+      'nv'  
+      'Am'    
+      'cv'    
+      'ft';   
+
+      grid-template-rows:    auto auto auto auto auto;
+      grid-template-columns: 100%;
+      grid-gap: 0px;
+      width: 100%;
+      height: 100%;      
+      background: rgb(216, 15, 15);
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up)            */
+@media only screen and (min-width: 600px) {
+
+  .header     {  }
+  .nav        {  }
+  .about      {  }
+  .cv         {  }
+  .footer     {  }
+  
+  .grid-container {
+    grid-template-areas:
+    
+        '.  hd hd hd hd . '    
+        '.  cv nv nv nv nv'    
+        'Am Am Am Am Am Am'    
+        'Am Am Am Am Am Am'    
+        '.  ft ft ft ft . ';   
+  
+        grid-template-rows:    auto auto auto auto auto;
+        grid-template-columns: 100px 100px 100px 100px 100px 100px;
+        grid-gap: 3px;
+        height: 69vh;
+        background: rgb(216, 112, 15);
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up)                           */
+@media only screen and (min-width: 768px) {
+
+  .header     {  }
+  .nav        {  }
+  .about      {  }
+  .cv         {  }
+  .footer     {  }
+  
+  .grid-container {
+    grid-template-areas:
+  
+        '.  hd hd hd hd . '    
+        '.  cv nv nv nv nv'    
+        'Am Am Am Am Am Am'    
+        'Am Am Am Am Am Am'    
+        '.  ft ft ft ft . ';   
+  
+        grid-template-rows:    auto auto auto auto auto;
+        grid-template-columns: 100px 100px 100px 100px 100px 100px;
+        grid-gap: 3px;
+        height: 69vh;
+        background: rgb(213, 216, 15);
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up)                             */
+@media only screen and (min-width: 992px) {
+
+  .header     {  }
+  .nav        {  }
+  .about      {  }
+  .cv         {  }
+  .footer     {  }
+  
+  .grid-container {
+    grid-template-areas:
+  
+        '.  .  .  .  .  . '    
+        '.  cv nv nv nv nv'    
+        'Am Am hd hd .  . '    
+        'Am Am hd hd .  . '    
+        '.  ft ft ft ft . ';   
+  
+        grid-template-rows:    auto auto auto auto auto;
+        grid-template-columns: 100px 100px 100px 100px 100px 100px;
+        grid-gap: 3px;
+        height: 69vh;
+        background: rgb(38, 216, 15);
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up)            */
+@media only screen and (min-width: 1200px) {
+
+  .header     {  }
+  .nav        {  }
+  .about      {  }
+  .cv         {  }
+  .footer     {  }
+  
+  .grid-container {
+    grid-template-areas:
+    '.  .  .  .  .  . '    
+    '.  cv nv nv nv nv'    
+    'Am Am hd hd .  . '    
+    'Am Am hd hd .  . '    
+    '.  ft ft ft ft . '    
+    '.  ft ft ft ft . ';   
+
+    grid-template-rows:    200px 200px 200px 200px 200px 200px;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-gap: 3px;
+    width: 100%;
+    height: 100%;
+    background: rgb(15, 62, 216);
+    /* background: url(assets/images/2d.png) no-repeat;
+    background-size: auto;  */
+    overflow: hidden;
+  }
+}

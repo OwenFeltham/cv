@@ -1,0 +1,177 @@
+html {
+	height: 100%;
+	width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+	min-height: 100%;
+	min-width: 100%;
+	overflow: hidden;
+	background: rgb(119, 57, 57);	
+	font-family: space mono regular;
+	margin: 0;
+	padding: 0;
+}
+
+.one    { grid-area: on; }
+.two    { grid-area: tw; }
+.three  { grid-area: th; }
+.four   { grid-area: fo; }
+.five   { grid-area: fi; }
+.six    { grid-area: si; }
+.seven  { grid-area: se; }
+.eight  { grid-area: ei; }
+.nine   { grid-area: ni; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+		'se se ei ei ni ni'    
+		'se se ei ei ni ni'    
+		'fo fo fi fi si si'    
+		'fo fo fi fi si si'    
+		'on on tw tw th th'
+		'on on tw tw th th';    
+	grid-template-rows: auto auto 100px 100px auto auto;
+	grid-template-columns: auto auto 100px 100px auto auto;
+	grid-gap: 12px;
+	height: -webkit-fill-available;
+	min-height: 100%;
+	overflow: hidden;
+	padding: 28px;
+	background: rgba(156, 49, 49, 0.582);
+	color: rgb(223, 217, 140);
+	box-shadow: 0 -9px 8px 0 rgba(0, 0, 0, 0.2) inset, 
+	0 6px 20px 0 rgba(0, 0, 0, 0.7) inset; 
+	/* border-radius: 5000px; */
+}
+
+.one {
+  box-shadow: 0 -9px 8px 0 rgba(0, 0, 0, 0.2) inset, 
+	0 6px 20px 0 rgba(0, 0, 0, 0.7) inset;
+	border-radius: 500px;	
+	display: inline-flex;
+	flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ }
+
+.two {
+  box-shadow: 0 -9px 8px 0 rgba(0, 0, 0, 0.2) inset, 
+	0 6px 20px 0 rgba(0, 0, 0, 0.7) inset;
+	border-radius: 500px;	
+	font-size: 3em;
+	display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ }
+
+.three {
+  box-shadow: 0 -9px 8px 0 rgba(0, 0, 0, 0.2) inset, 
+	0 6px 20px 0 rgba(0, 0, 0, 0.7) inset;
+	border-radius: 500px;	
+	display: inline-flex;
+	flex-direction: column;
+  align-items: center;
+	justify-content: center;
+ }
+
+.four {
+  box-shadow: 0 -9px 8px 0 rgba(0, 0, 0, 0.2) inset, 
+	0 6px 20px 0 rgba(0, 0, 0, 0.7) inset;
+	border-radius: 500px;	
+	font-size: 1em;
+	font-family: Rubik Mono One;
+	display: inline-flex;
+	flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ }
+
+.five {
+  box-shadow: 0 -9px 8px 0 rgba(0, 0, 0, 0.2) inset, 
+	0 6px 20px 0 rgba(0, 0, 0, 0.7) inset;
+	border-radius: 500px;
+	background: url(assets/images/of.png);
+	background-size: 200px 200px;
+	font-size: 5em;
+	font-family: Rubik Mono One;	
+ }
+
+.six    {  
+	box-shadow: 0 -9px 8px 0 rgba(0, 0, 0, 0.2) inset, 
+	0 6px 20px 0 rgba(0, 0, 0, 0.7) inset; 
+	border-radius: 500px;	
+	display: inline-flex;
+	flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.seven  {  
+	box-shadow: 0 -9px 8px 0 rgba(0, 0, 0, 0.2) inset, 
+	0 6px 20px 0 rgba(0, 0, 0, 0.7) inset; 
+	border-radius: 500px;	
+	display: inline-flex;
+	flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.eight  {  
+	box-shadow: 0 -9px 8px 0 rgba(0, 0, 0, 0.2) inset, 
+	0 6px 20px 0 rgba(0, 0, 0, 0.7) inset;
+	border-radius: 500px;	
+	display: inline-flex;
+	flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nine   {  
+	box-shadow: 0 -9px 8px 0 rgba(0, 0, 0, 0.2) inset, 
+	0 6px 20px 0 rgba(0, 0, 0, 0.7) inset;
+	border-radius: 500px;	
+	display: inline-flex;
+	flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+li {  
+	display: inline-flex;
+	flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+	color: pink;
+}
+
+h1 {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	right: 50%;
+}
+
+.fel {
+	position: relative;
+	top: -58px;
+	left: -135px;
+	right: auto;
+	text-shadow: 0px 0px 20px black;
+	z-index: 9999;
+}
+
+.owe {
+	position: relative;
+	top: 55px;
+	left: -34px;
+	text-shadow: 0px 0px 20px black;
+	z-index: 9999;
+}
