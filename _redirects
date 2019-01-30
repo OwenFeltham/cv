@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+http://happy-bassi-936724.netlify.com/* http://www.owenfeltham.com/:splat 301!
